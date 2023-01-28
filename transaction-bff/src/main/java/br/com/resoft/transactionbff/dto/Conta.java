@@ -2,8 +2,9 @@ package br.com.resoft.transactionbff.dto;
 
 import java.io.Serializable;
 
+import javax.validation.constraints.NotNull;
+
 import io.swagger.v3.oas.annotations.media.Schema;
-import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
