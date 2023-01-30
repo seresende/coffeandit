@@ -1,0 +1,6 @@
+sudo service docker start
+
+cd /mnt/c/Projetos/Workspace/coffeandit/transaction-bff
+
+docker-compose -f docker-compose-kafka-zipkin.yml up
+
